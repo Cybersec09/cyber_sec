@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>cyber_sec</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg  bg-body- bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/info.html">cyber_sec</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">contant us</a>
+                    </li>
+                   
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            topics
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">web_devlopment</a></li>
+                            <li><a class="dropdown-item" href="#">hacking</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">bug_bounty</a></li>
+                        </ul>
+                    </li>
+                   
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- contant form  -->
+    <div class="contanier px-3">
+        <section class="section-preview">
+
+            <!--Section: Contact v.2-->
+            <section class="mb-4">
+      
+                <!--Section heading-->
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+                <!--Section description-->
+                <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+                    a matter of hours to help you.</p>
+      
+                <div class="row">
+      
+                    <!--Grid column-->
+                    <div class="col-md-9 mb-md-0 mb-5">
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+      
+                            <!--Grid row-->
+                            <div class="row">
+      
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <label for="name" class="">Your name</label>
+                                        <input type="text" id="name" name="name" class="form-control">
+                                       
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+      
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <label for="email" class="">Your email</label>
+                                        <input type="text" id="email" name="email" class="form-control">
+                                      
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+      
+                            </div>
+                            <!--Grid row-->
+      
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <label for="subject" class="">Subject</label>
+                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+      
+                            <!--Grid row-->
+                            <div class="row">
+      
+                                <!--Grid column-->
+                                <div class="col-md-12">
+      
+                                    <div class="md-form">
+                                        <label for="message">Your message</label>
+                                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                        
+                                    </div>
+      
+                                </div>
+                            </div>
+                            <!--Grid row-->
+      
+                        </form>
+      
+                        <div class="text-center text-md-left">
+                            <button type="button" class="btn btn-primary" id="liveAlertBtn">send</button>
+                        </div>
+                        <div id="status"></div>
+                    </div>
+                    <!--Grid column-->
+      
+                    <!--Grid column-->
+                    <div class="col-md-3 text-center">
+                        <ul class="list-unstyled mb-0">
+                            <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                <p>lochapoda BAM</p>
+                            </li>
+      
+                            <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                                <p>+91 63701 73996 , 78480 44238</p>
+                            </li>
+      
+                            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                <p>maharanagopalkrushna@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+      
+                </div>
+      
+            </section>
+            <!--Section: Contact v.2-->
+      
+          </section>
+    </div>
+    <!-- fotter  -->
+    <div class="continer">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">contant us</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="/about.html" class="nav-link px-2 text-muted">About</a></li>
+          </ul>
+          <p class="text-center text-muted">© 2022 Company, Inc</p>
+          <p class="text-center text-muted">@woned by cyber_sec</p>
+        </footer>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous">
+        const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+const appendAlert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(wrapper)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    appendAlert('Nice, thanks for contact!', 'vist again')
+  })
+}
+    </script>
+</body>
+
+</html>
